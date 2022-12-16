@@ -2077,11 +2077,13 @@ input[type='checkbox'] {
 .quantity__input::-webkit-outer-spin-button,
 .quantity__input::-webkit-inner-spin-button {
   -webkit-appearance: none;
+  appearance: none;
   margin: 0;
 }
 
 .quantity__input[type='number'] {
   -moz-appearance: textfield;
+  appearance: textfield;
 }
 
 /* component-modal */
@@ -2959,7 +2961,7 @@ details-disclosure > details {
 }
 
 
-/* remove the logo from header on front page */
+/* remove the logo from header on front page 
 .header__heading {
   display: none;
-}
+}*/
