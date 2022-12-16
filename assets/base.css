@@ -2961,7 +2961,7 @@ details-disclosure > details {
 }
 
 
-/* remove the logo from header on front page 
+/* remove the logo from header on front page */
 .header__heading {
   display: none;
-}*/
+}
